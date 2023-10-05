@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset {
+            font-size: 12px;
+            text-align: left;
+            margin: 10px;
+        }
+        .legende {
+            background-color: maroon;
+            color: white;
+            padding: 8px;
+        }
+        .width {
+            box-sizing: border-box;
+            width: 90%;
+            padding: 4px;
+            margin: 10px;
+        }
+        .bgcolor {
+            background-color: beige;
+        }
+        form {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+            <label class="legende" for="Geslacht">Geslacht</label>
+            <fieldset class="bgcolor">
+                <label for="man">Man
+                <input type="radio" name="Geslacht" id="Man" value="Man">
+                <label for="vrouw">Vrouw
+                <input type="radio" name="Geslacht" id="Vrouw" value="Vrouw">
+                <label for="ander">Ander
+                <input type="radio" name="Geslacht" id="Ander" value="Ander">
+            </fieldset>
+
+            <label class="legende" for="Kleur ogen">Kleur ogen</label>
+            <fieldset class="bgcolor">
+            </label>
+            <label for="Kleurogen">Bruin
+                <input type="radio" name="Kleurogen" id="Bruin" value="Bruin">
+            <label for="Kleurogen">Groen
+                <input type="radio" name="Kleurogen" id="Groen" value="Groen">
+            <label for="Kleurogen">Blauw
+                <input type="radio" name="Kleurogen" id="Blauw" value="Blauw">
+            <label for="Kleurogen">Grijs
+                <input type="radio" name="Kleurogen" id="Grijs" value="Grijs">
+            </fieldset>
+        </label>
+        </div>
+
+        <input class="bgcolor width" type="submit" name="" id="">
+    </body>
+</html>
