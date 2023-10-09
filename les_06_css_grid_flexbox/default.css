@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+/* navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aquamarine;
+  border-bottom: 3px solid darkmagenta;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.brand {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+}
+
+li a:hover:not(.active) {
+  background-color: pink;
+}
+
+.active {
+  background-color: darkmagenta;
+}
+/* app */
+.app {
+  margin-top: 20px;
+  width: 500px;
+  margin-inline: auto;
+  background-color: aliceblue;
+}
+.footer {
+  background-color: aquamarine;
+  color: #333;
+  padding: 1rem;
+  border-top: 3px solid darkmagenta;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.footer p {
+  text-align: right;
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+
+}
+.img {
+  width: 200px;
+  }
+a.link {
+  border: #333;
+/* soundcloud knop!!!!!*/
+  margin: 10px;
+  background-color: orange;
+}
+@media (width < 700px) {
+  .flex {
+    flex-direction: column;
+    
+  }
+}

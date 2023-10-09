@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            grid-area: auto ;
+            background-color: aqua;
+            height: 6rem;
+            width: 100%;
+            text-align: center;
+            
+        }
+        aside {
+            grid-area: auto ;
+            background-color: greenyellow;
+            height: 20rem;
+            width: 200px;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+        main {
+            grid-area: auto ;
+            background-color: darkgrey;
+            height: 20rem;
+            width: auto;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+        footer {
+            grid-area: auto ;
+            background-color: orange;
+            height: 2rem;
+            width: 100%;
+            text-align: center;
+        }
+        .flex {
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+            display: flex;
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+
+
+        }
+        .container {
+            grid-template-columns: auto auto;
+            display: grid;
+            grid-column-gap: 0;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <header>Header</header>
+        <div class="container">
+            <aside class="flex">Aside</aside>
+            <main class="flex">Main</main>
+        </div>
+        <div>
+            <footer>Footer</footer>   
+        </div>
+
+    </div>
+
+</body>
+</html>
