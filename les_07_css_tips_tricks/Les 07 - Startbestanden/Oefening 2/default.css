@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+}
+.yellow {
+background-color: yellow;
+width: 50%;
+height: 100px;
+padding: 5px;
+text-align: center;
+
+}
+.red {
+width: 75%;
+height: 200px;
+padding: 5px;
+background-color: red;
+
+}
+.white {
+    height: 300px;
+background-color: white;
+width: 50%;
+padding: 5px;
+
+}
