@@ -1,34 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="navbarstyle.css">
-</head>
-<body>
-    <!--nav start-->
-    <header>
-        <h1 class="logo">QIAN</h1>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <nav>
-          <ul>
-            <li><a href="START.HTML">Start</a></li>
-            <li><a href="hobby.html">Hobby's</a></li>
-            <li><a href="ervaring.html">Ervaringen</a></li>
-            <li><a href="curiculumVitae.html">CV</a></li>
-            <li><a href="Contact/">Contact</a></li>
-          </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
-      </header>
+    <link rel="stylesheet" href="navbarstyle.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-      <div class="content">
-        <h2>Your content goes here.</h2>
+  <body>
+    <div class="main">
+      <nav>
+        <ul class="nav-container">
+          <img class="logoheader" src="img/logo.png" alt="" />
+          <li><a href="index.html">Start</a></li>
+          <li><a href="curiculumVitae.html">CV</a></li>
+          <li><a href="ervaring.html">Ervaring</a></li>
+          <li class="active"><a href="hobby.html">Hobby's</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-with-bg">
+        <div>
+          <p>*********</p>
+          <p>PORTFOLIO</p>
+          <p>HOBBY'S</p>
+        </div>
       </div>
-    <!--nav start-->   
+      <div class="container">
+        <section>
+          <div>
+            <img src="img/sporten.jpg" alt="afbeelding dumbells" />
+          </div>
+          <div>
+            <h2>Sporten</h2>
+            <p>
+              Bijna dagelijks streef ik ernaar om mijn gezondheid te verbeteren
+              door te sporten. Fitnessen en hardlopen zijn activiteiten waar ik
+              gepassioneerd mee bezig ben. Het bijhouden van mijn vooruitgang en
+              mezelf elke dag uitdagen zijn aspecten waar ik een echte passie
+              voor heb.
+            </p>
+          </div>
+        </section>
 
-</body>
+        <section>
+          <div>
+            <h2>Vrienden</h2>
+            <p>
+              Het koesteren van sterke vriendschappen is van onschatbare waarde
+              voor mij. Een gezonde sociale kring biedt de ideale omgeving om
+              mijn gedachten te verzetten, pleaier te maken en om advies te
+              vragen.
+            </p>
+          </div>
+          <div>
+            <img src="img/vrienden.jpg" alt="afbeelding van pinten" />
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <img src="img/familie.jpg" alt="afbeelding van mijn familie" />
+          </div>
+          <div>
+            <h2>Familie</h2>
+            <p>
+              Familie is van onschatbare waarde voor mij. Als iemand die is
+              opgegroeid met drie oudere zussen en talloze neven en nichten,
+              besteed ik veel van mijn vrije tijd met mijn dierbaren. Ze vormen
+              de belangrijkste pijlers in mijn leven, altijd klaar om mij van
+              goed advies en ondersteuning te voorzien.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h2>Gamen</h2>
+            <p>
+              Mijn opvoeding met klassiekers zoals Mario, Zelda en Pokémon heeft
+              mijn interesse in technologie aangewakkerd. Ik vind het
+              fascinerend om te ontdekken hoe deze games zijn ontworpen en
+              functioneren. In mijn vrije tijd geniet ik af en toe van het
+              spelen van leuke games met vrienden.
+            </p>
+          </div>
+          <div>
+            <img src="img/gamen.jpg" alt="afbeelding retro gaming" />
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <ul class="nav-container">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="curiculumVitae.html">CV</a></li>
+          <li><a href="ervaring.html">Ervaring</a></li>
+          <li class="active"><a href="hobby.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="naam">Portfolio - Qian Hu</div>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,34 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="navbarstyle.css">
-</head>
-<body>
-    <!--nav start-->
-    <header>
-        <h1 class="logo">QIAN</h1>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <nav>
-          <ul>
-            <li><a href="START.HTML">Start</a></li>
-            <li><a href="hobby.html">Hobby's</a></li>
-            <li><a href="ervaring.html">Ervaringen</a></li>
-            <li><a href="curiculumVitae.html">CV</a></li>
-            <li><a href="Contact/">Contact</a></li>
-          </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
-      </header>
-
-      <div class="content">
-        <h2>Your content goes here.</h2>
+    <link rel="stylesheet" href="navbarstyle.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <ul class="nav-container">
+          <img class="logoheader" src="img/logo.png" alt="" />
+          <li><a href="index.html">Start</a></li>
+          <li><a href="curiculumVitae.html">CV</a></li>
+          <li><a href="ervaring.html">Ervaring</a></li>
+          <li><a href="hobby.html">Hobby's</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-with-bg">
+        <div>
+          <p>*********</p>
+          <p>PORTFOLIO</p>
+          <p>CONTACT</p>
+        </div>
       </div>
-    <!--nav start-->   
-
-</body>
+      <section>
+        <p>
+          Dank voor het bezoeken van mijn portfolio! Als u nog vragen heeft,
+          kunt u contact met me opnemen via de volgende methodes hieronder.
+        </p>
+        <div class="container">
+          <div>
+            <section>
+              <div>
+                <h4>Stuur een e-mail</h4>
+                <a href="mailto: r0627467@student.thomasmore.be">
+                  <img
+                    class="contactlogo"
+                    src="img/email-icon-vector.png"
+                    alt="email logo"
+                  />
+                </a>
+              </div>
+              <div>
+                <h4>Add me on linked-in</h4>
+                <a href="https://www.linkedin.com/in/qian-hu-35b28b297/">
+                  <img
+                    class="contactlogo"
+                    src="img/linkedin.png"
+                    alt="linkedin logo"
+                  />
+                </a>
+              </div>
+              <div>
+                <h4>Plan een afspraak</h4>
+                <a href="tel:+4733378901">
+                  <img
+                    class="contactlogo"
+                    src="img/telefoonlogo.avif"
+                    alt="telefoonlogo"
+                  />
+                </a>
+              </div>
+            </section>
+          </div>
+          <section>
+            <div>
+              <h4>Kom mij bezoeken</h4>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10008.617587547815!2d4.961399!3d51.1609429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14c011b4bcb87%3A0xb5b970e9f2a6ce42!2sThomas%20More%20-%20Campus%20Geel!5e0!3m2!1snl!2sbe!4v1697488517867!5m2!1snl!2sbe"
+                width="500px"
+                height="500"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div>
+              <h4>Laat een bericht achter</h4>
+              <form class="frameForm" action="submit">
+                <label for="fname">Voornaam</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="Voornaam"
+                  placeholder="Voornaam"
+                />
+                <label for="lname">Naam</label>
+                <input type="text" id="lname" name="Naam" placeholder="Naam" />
+                <select id="Reden" name="Reden">
+                  <option value="Solicitatie">Solicitatie</option>
+                  <option value="Boeking">Boeking</option>
+                  <option value="Offerte">Offerte</option>
+                </select>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height: 380px; width: 300px"
+                ></textarea>
+                <input type="submit" value="Verstuur" />
+              </form>
+            </div>
+          </section>
+        </div>
+      </section>
+      <footer class="footer">
+        <ul class="nav-container">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="curiculumVitae.html">CV</a></li>
+          <li><a href="ervaring.html">Ervaring</a></li>
+          <li><a href="hobby.html">About</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="naam">Portfolio - Qian Hu</div>
+      </footer>
+    </div>
+  </body>
 </html>
