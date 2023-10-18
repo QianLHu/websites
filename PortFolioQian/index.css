@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.header-with-bg {
+  background-image: url('img/headerbg.avif');
+  opacity: 0.8;
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-with-bg p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main {    
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 30px;
+}
+
+.container section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+.container section img {
+
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.cvTable {
+  font-size: 18px;
+}
+.contactlogo img {
+  width: 100px;
+}
+.frameForm {
+  height: 600px;
+}
+input, select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 200px;
+  float: right;
+}
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: nowrap;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 12px;
+  padding: 50px 30px;
+}
+hr {
+  height: 5px;
+  background-color: #bb6c74;
+  width: 100%;
+}
+.container section .contactlogo {
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.container section h4 {
+  text-align: center;
+}
+h4 {
+text-align: center;
+}
+tr {
+  width: 50%;
+}

@@ -1,34 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="navbarstyle.css">
-</head>
-<body>
-    <!--nav start-->
-    <header>
-        <h1 class="logo">QIAN</h1>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <link rel="stylesheet" href="navbarstyle.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="main">
         <nav>
-          <ul>
-            <li><a href="START.HTML">Start</a></li>
+          <ul class="nav-container">
+            <img
+              class="logoheader"
+              src="img/logo.png"
+              alt="mijn logo qian"
+            /><!--kan niet tussen li plaatsen wegens hover-->
+            <li><a href="index.html">Start</a></li>
+            <li class="active"><a href="curiculumVitae.html">CV</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
             <li><a href="hobby.html">Hobby's</a></li>
-            <li><a href="ervaring.html">Ervaringen</a></li>
-            <li><a href="curiculumVitae.html">CV</a></li>
-            <li><a href="Contact/">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
-      </header>
+        <div class="header-with-bg">
+          <div>
+            <p>*********</p>
+            <p>PORTFOLIO</p>
+            <p>CURICULUM VITAE</p>
+          </div>
+        </div>
+        <div class="container">
+          <section>
+            <div>
+              <table class="cvTable">
+                <tr>
+                  <th>BASISGEGEVENS</th>
+                </tr>
+                <tr>
+                  <th>Naam</th>
+                  <td>Hu</td>
+                </tr>
+                <tr>
+                  <th>Voornaam</th>
+                  <td>Qian</td>
+                </tr>
+                <tr>
+                  <th>Geboortedatum</th>
+                  <td>20/09/1996</td>
+                </tr>
+                <tr>
+                  <th>Burgerlijke staat</th>
+                  <td>Ongehuwd</td>
+                </tr>
+                <tr>
+                  <th>Talen</th>
+                  <td>Nederlands, Engels, Chinees (dialect)</td>
+                </tr>
+                <tr>
+                  <th>Opleiding</th>
+                  <td>Graduaat programmeren</td>
+                </tr>
+                <tr>
+                  <th>School</th>
+                  <td>Thomas More</td>
+                </tr>
+                <tr>
+                  <th>Job</th>
+                  <td>Zelfstandige helper</td>
+                </tr>
+                <tr>
+                  <th>Auto</th>
+                  <td>Beschikbaar</td>
+                </tr>
+              </table>
+            </div>
+            <div>
+              <img class="imgcv" src="img/pasfoto.jpg" alt="pasfoto van mij" />
+            </div>
+          </section>
+        </div>
+        <hr />
 
-      <div class="content">
-        <h2>Your content goes here.</h2>
+        <div class="container">
+          <section>
+            <div>
+              <img
+                class="imgcv"
+                src="img/kuehne1x1.png"
+                alt="foto kuehne+nagels"
+              />
+            </div>
+            <div>
+              <h2>Magazijnmedewerker bij Kuehne & Nagel (2016-2017)</h2>
+              <p>
+                Als onderdeel van mijn rol als magazijnmedewerker bij Kuehne &
+                Nagel was ik verantwoordelijk voor het nauwkeurig orderpicken
+                met behulp van geavanceerde machinale voertuigen. Daarnaast
+                hield ik me bezig met zorgvuldig inpakken en efficiënt sorteren
+                van bestellingen, waarbij ik ervoor zorgde dat alle logistieke
+                processen soepel en gestroomlijnd verliepen.
+              </p>
+            </div>
+          </section>
+        </div>
+        <hr />
+        <div class="container">
+          <section>
+            <div>
+              <h2>Operator bij DAF Trucks (2017 – 2019)</h2>
+              <p>
+                Gedurende mijn tijd als operator bij DAF Trucks was mijn
+                voornaamste taak het vakkundig installeren van
+                interieurelementen in DAF-vrachtwagens. Ik was verantwoordelijk
+                voor het zorgvuldig aansluiten van diverse elektrische en
+                technologische apparaten, zoals radio's, tachografen en
+                elektrische bedieningssystemen. Mijn toewijding aan precisie en
+                mijn technische vaardigheden waren van essentieel belang om
+                ervoor te zorgen dat elk voertuig voldeed aan de hoogste
+                kwaliteitsnormen.
+              </p>
+            </div>
+            <div>
+              <img
+                class="imgcv"
+                src="img/daf-1x1.png"
+                alt="foto daf trucks westerlo"
+              />
+            </div>
+          </section>
+        </div>
+        <hr />
+        <div class="container">
+          <section>
+            <div>
+              <img src="img/halfweg1x1.png" alt="foto frituur halfweg" />
+            </div>
+            <div>
+              <h2>Zelfstandige helper (2020 – heden)</h2>
+              <p>
+                Betrokken bij het runnen van de familiezaak sinds jonge
+                leeftijd, waarbij mijn verantwoordelijkheden variëren van
+                schoonmaakwerkzaamheden en het voeren van informele gesprekken
+                met vaste klanten tot het onderhouden van een positieve relatie
+                met de boekhouder.
+              </p>
+            </div>
+          </section>
+        </div>
+        <footer class="footer">
+          <ul class="nav-container">
+            <li><a href="index.html">Start</a></li>
+            <li class="active"><a href="curiculumVitae.html">CV</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="hobby.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="naam">Portfolio - Qian Hu</div>
+        </footer>
       </div>
-    <!--nav start-->   
-
-</body>
+    </main>
+  </body>
 </html>
