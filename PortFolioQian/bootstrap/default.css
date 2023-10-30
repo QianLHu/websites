@@ -1,37 +1,59 @@
-main nav div a img {
-    width: 70px;
-    margin-right:80px;
+nav div a img {
+    width: 40px;
+    margin-right:60px;
 }
-.nav-link:hover {
-    background-color: #799486;
-}
+
 a.nav-link.active {
     border-bottom: 4px solid #799486
 }
 .nav-link {
-    font-size: 18px;
+    font-size: 15px;
 }
 .navbar-nav > li {
-    padding-left:30px;
-    padding-right:30px;
-  }
-  .navbar-nav {
-    justify-content: center;
+    padding-left:15px;
+    padding-right:15px;
 }
+.navbar-nav > li:hover {
+    background-color: #799486;
+  }
 footer ul li img {
     width: 35px;
 }
-header div img  {
+.headerBgImage {
+    background-image: url(img/headerbg.avif);
     opacity: 70%;
 }
-header div h5 {
+header div, h5 {
+    color: white;
     font-size: 50px;
     text-align: center;
+
+}
+header div button a {
+    color: white;
+    text-decoration: none;
 }
 main section img {
-    width: 100%;
-    margin-bottom: 50px;
+    width: 250px;
+    margin: 60px;
 }
-main section h1, p {
+main section h3, p {
     text-align: center;
+}
+
+footer ul li:hover {
+    background-color: #799486;
+  }
+.section {
+    max-width: 900px;
+}
+
+@media screen 
+  and (max-width: 720px){ 
+.flex {
+    display: flexbox;
+    }
+    footer li {
+    justify-content: center;
+      }
 }
