@@ -35,7 +35,7 @@ header div button a {
 }
 main section img {
     width: 250px;
-    margin: 60px;
+
 }
 main section h3, p {
     text-align: center;
@@ -47,7 +47,13 @@ footer ul li:hover {
 .section {
     max-width: 900px;
 }
-
+.carousel-control-prev-icon {
+    background-image: url(img/prev.png) !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url(img/next.png) !important;
+   }
 @media screen 
   and (max-width: 720px){ 
 .flex {
@@ -56,4 +62,8 @@ footer ul li:hover {
     footer li {
     justify-content: center;
       }
+}
+main hr {
+    height: 5px;
+    background-color: #bb6c74;
 }
