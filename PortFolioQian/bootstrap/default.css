@@ -54,6 +54,15 @@ footer ul li:hover {
    .carousel-control-next-icon {
      background-image: url(img/next.png) !important;
    }
+   .btn-secondary {
+    background-color: #bb6c74;
+    border-color: black;
+   }
+    main hr {
+        height: 5px;
+        background-color: #bb6c74;
+    }
+    
 @media screen 
   and (max-width: 720px){ 
 .flex {
@@ -62,8 +71,4 @@ footer ul li:hover {
     footer li {
     justify-content: center;
       }
-}
-main hr {
-    height: 5px;
-    background-color: #bb6c74;
 }
