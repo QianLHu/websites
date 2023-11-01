@@ -2,8 +2,9 @@ nav div a img {
     width: 40px;
     margin-right:60px;
 }
-.navbar {
+.nav {
     margin: auto;
+    justify-content: center;
 }
 a.nav-link.active {
     border-bottom: 4px solid #799486
