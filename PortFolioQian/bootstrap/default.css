@@ -2,7 +2,9 @@ nav div a img {
     width: 40px;
     margin-right:60px;
 }
-
+.navbar {
+    margin: auto;
+}
 a.nav-link.active {
     border-bottom: 4px solid #799486
 }
@@ -33,8 +35,13 @@ header div button a {
     color: white;
     text-decoration: none;
 }
+.table {
+    width: 550px;
+    font-size: 12px;
+}
 main section img {
     width: 250px;
+    margin: auto;
 
 }
 main section h3, p {
@@ -46,29 +53,56 @@ footer ul li:hover {
   }
 .section {
     max-width: 900px;
+    margin: auto;
+}
+.carous {
+    max-width: 70%;
+    margin: auto;
+}
+.carousel-item {
+    min-height: 450px;
+}
+.logos {
+    width: 100px;
+    margin: auto;
 }
 .carousel-control-prev-icon {
     background-image: url(img/prev.png) !important;
-   }
+}
    
-   .carousel-control-next-icon {
+.carousel-control-next-icon {
      background-image: url(img/next.png) !important;
-   }
-   .btn-secondary {
+}
+.btn-secondary {
     background-color: #bb6c74;
     border-color: black;
-   }
-    main hr {
-        height: 5px;
-        background-color: #bb6c74;
-    }
-    
+}
+hr {
+    height: 5px;
+    background-color: #bb6c74;
+    width: 70%;
+    margin: auto;
+}
+.card-footer {
+    background-color: white;
+    margin: auto;
+}
+.col-md-3 {
+    margin: auto;
+}
+.card-body {
+    min-height: 140px;
+}
 @media screen 
   and (max-width: 720px){ 
-.flex {
+    .flex {
     display: flexbox;
     }
-    footer li {
-    justify-content: center;
-      }
+    .footer p, ul li, ul li a {
+    margin: auto;
+    text-align: center;
+    }
+    .carousel-item {
+        min-height: 870px;
+    }
 }
